@@ -1,0 +1,54 @@
+/* COLORS:
+light grey: #c7c7c7
+dark grey: #202020 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #202020;
+}
+
+.navbar {
+    background-color: #c7c7c7;
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.leftli {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #202020;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #888888;
+    color: white;
+}
+
+li a.active {
+    background-color: #5e5e5e;
+    color: white;
+}
